@@ -1,4 +1,16 @@
-
+#pragma once
+#include <stdio.h>
+#include <stdlib.h>
+#include <Rcpp.h>
+#include <vector>
+#include <math.h>
+#include <string>
+#include <thread>
+#ifdef _OPENMP
+	#include <omp.h>
+#endif
+#include <boost/math/special_functions/gamma.hpp>
+#include <fstream>
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <vector>

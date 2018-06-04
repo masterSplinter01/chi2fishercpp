@@ -1,13 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <Rcpp.h>
-#include <vector>
-#include <math.h>
-#include <string>
-#include <fstream>
-#include <omp.h>
 #include "tables_chi_correlation.h"
-#include <boost/math/special_functions/gamma.hpp>
+
 
 void run_test (int** cross_table, size_t phen_rows_num, size_t gen_cols_num, 
 				std::vector<double> *stat_vec, std::vector<double> *p_value_vec, std::vector <int> *degree_freedom_vec, 

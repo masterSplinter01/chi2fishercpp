@@ -1,14 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <Rcpp.h>
-#include <vector>
-#include <math.h>
-#include <string>
-#include <thread>
 #include "tables_chi_correlation.h"
-#ifdef _OPENMP
-  #include <omp.h>
-#endif
+
 
 // [[Rcpp::plugins(openmp)]]
 
